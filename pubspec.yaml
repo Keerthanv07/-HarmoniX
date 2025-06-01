@@ -1,0 +1,36 @@
+name: icm
+description: Indian Classical Music Analysis and Synthesis Tool
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  file_picker: ^6.1.1
+  fl_chart: ^0.66.0
+  record: ^4.4.4
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  audioplayers: ^5.2.1
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+  just_audio: ^0.9.36
+  google_mlkit_commons: ^0.6.1
+  tflite_flutter: ^0.10.4
+  fftea: ^1.5.0
+  google_generative_ai: ^0.1.0  # For Gemini integration
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/audio/
+    - assets/models/
